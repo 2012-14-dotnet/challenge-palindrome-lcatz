@@ -11,7 +11,7 @@ namespace Palindrome.Domain
 
         public bool IsStringPalindrome()
         {
-            string ReverseString;
+            string ReverseString = null;
             for (int i = CleanEntry.Length -1; i >=0; i--)
             {
                 ReverseString += CleanEntry[i].ToString(); 
